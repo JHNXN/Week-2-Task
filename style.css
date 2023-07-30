@@ -1,0 +1,689 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+}
+body header nav {
+  width: 950px;
+  display: flex;
+  justify-content: space-between;
+  height: 19px;
+}
+body header nav .nav-link {
+  margin-right: 30px;
+  font-size: 13px;
+  font-family: tahoma;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+}
+body header nav .nav-link:hover {
+  color: blue;
+}
+body header nav .span-div {
+  display: flex;
+  width: 280px;
+}
+body header nav .span-div .acct-border {
+  border-right: 2px solid grey;
+  padding-right: 22px;
+}
+body main .hero-section {
+  width: 1100px;
+  margin: 35px auto 0;
+  height: calc(100vh - 90px);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+body main .hero-section .left-section {
+  width: 50%;
+  height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body main .hero-section .left-section .left-section-btn {
+  font-size: 16px;
+  font-family: tahoma;
+  color: #808085;
+  border: none;
+  padding-right: 15px;
+}
+body main .hero-section .left-section h3 {
+  font-size: 55px;
+  font-family: verdana;
+  color: #000000;
+  font-weight: 600;
+  margin: 50px 0;
+}
+body main .hero-section .left-section p {
+  font-size: 18px;
+  font-family: tahoma;
+  color: #808080;
+  margin-bottom: 50px;
+  width: 80%;
+}
+body main .hero-section .left-section .btn-container .hero-link {
+  padding: 12px;
+  background-color: #b00000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 20px;
+}
+body main .hero-section .left-section .btn-container .hero-btn {
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+body main .hero-section .right-section {
+  width: 50%;
+  height: calc(100vh - 90px);
+  background-image: url(./images/hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+body main .hero-section .right-section .triangle-one {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-top: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #b00000;
+  border-right: 25px solid #b00000;
+  position: absolute;
+  right: -23PX;
+  top: 40px;
+}
+body main .hero-section .right-section .triangle-two {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-top: 25px solid transparent;
+  border-left: 25px solid #b00000;
+  border-bottom: 25px solid #b00000;
+  border-right: 25px solid transparent;
+  position: absolute;
+  top: 60%;
+  left: -23px;
+}
+body main .hero-section .right-section .triangle-three {
+  width: 70px;
+  height: 70px;
+  display: block;
+  border-top: 35px solid transparent;
+  border-left: 35px solid transparent;
+  border-bottom: 35px solid #b00000;
+  border-right: 35px solid #b00000;
+  position: absolute;
+  right: -30px;
+  bottom: 40px;
+}
+body main .cloud-section {
+  width: 1200px;
+  height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+body main .cloud-section .cloud {
+  height: 37%;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body main .cloud-section .cloud .true-text {
+  height: 100%;
+  width: 43%;
+}
+body main .cloud-section .cloud .true-text h4 {
+  font-family: verdana;
+  font-size: 37px;
+  color: #000000;
+  padding-bottom: 30px;
+  font-weight: 600;
+}
+body main .cloud-section .cloud .true-text p {
+  font-family: Tahoma;
+  font-size: 16px;
+  color: #000000;
+  padding-left: 5px;
+}
+body main .cloud-section .cloud .true-icon {
+  height: 100%;
+  width: 53%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 20px;
+}
+body main .cloud-section .cloud .true-icon .icon-div {
+  display: flex;
+  justify-content: space-between;
+}
+body main .cloud-section .cloud2 {
+  height: 43%;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+body main .cloud-section .cloud2 .cloud-div {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+body main .cloud-section .cloud2 .cloud-div h5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  padding: 20px 0;
+  text-align: center;
+}
+body main .cloud-section .cloud2 .cloud-div p {
+  font-size: 14px;
+  font-family: tahoma;
+  text-align: center;
+}
+body main .choose-package {
+  width: 850px;
+  height: 450px;
+  margin: 0 auto 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .choose-package .text-div {
+  width: 850px;
+  height: 50%;
+}
+body main .choose-package .text-div h4 {
+  width: 850px;
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+body main .choose-package .text-div p {
+  width: 850px;
+  font-size: 30px;
+  font-family: tahoma;
+  text-align: center;
+  padding: 30px 0;
+}
+body main .choose-package .button {
+  width: 850px;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .choose-package .button .monthly {
+  font-size: 30px;
+  font-family: tahoma;
+  margin: 0 70px;
+}
+body main .choose-package .button .yellow {
+  background-color: #e8c366;
+  width: 73px;
+  height: 15px;
+  font-size: 10px;
+  padding-top: 2.5px;
+  text-align: center;
+  border-radius: 10px;
+  padding-bottom: 3px;
+}
+body main .choose-package .button .back-ground {
+  width: 90px;
+  height: 40px;
+  display: block;
+  border-radius: 50px;
+  background-color: #b00000;
+  position: relative;
+  right: 340px;
+}
+body main .choose-package .button .top {
+  width: 25px;
+  height: 25px;
+  display: block;
+  border-radius: 50px;
+  background-color: #ffffff;
+  position: relative;
+  right: 420px;
+}
+body main .choose-package .button .switch {
+  position: relative;
+  right: 320px;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+body main .choose-package .button .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+body main .choose-package .button .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b00000;
+  transition: 0.4s;
+}
+body main .choose-package .button .slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+}
+body main .choose-package .button input:checked + .slider {
+  background-color: #808085;
+}
+body main .choose-package .button input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+body main .choose-package .button input:checked + .slider:before {
+  transform: translateX(26px);
+}
+body main .choose-package .button .slider.round {
+  border-radius: 34px;
+}
+body main .choose-package .button .slider.round:before {
+  border-radius: 50%;
+}
+body main .choose-package .basic-premium {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+}
+body main .choose-package .basic-premium .basic-div {
+  width: 50%;
+}
+body main .choose-package .basic-premium .basic-div .basic {
+  font-size: 30px;
+  font-family: verdana;
+  text-align: center;
+  border-bottom: 5px solid #b00000;
+}
+body main .choose-package .basic-premium .basic-div .premium {
+  font-size: 30px;
+  font-family: verdana;
+  text-align: center;
+  border-bottom: 5px solid #808080;
+}
+body main .starter-section {
+  width: 1100px;
+  margin: 10px auto 50px;
+  height: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .starter-section .starter {
+  border: 1px solid #6d6d6d;
+  height: 700px;
+  width: 28%;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 0 5px;
+}
+body main .starter-section .starter.hover {
+  background-color: #b00000;
+}
+body main .starter-section .starter .alpha-text {
+  font-size: 25px;
+  font-family: tahoma;
+  font-weight: bold;
+}
+body main .starter-section .starter .alpha-p {
+  font-size: 15px;
+  font-family: tahoma;
+  padding: 10px 0 25px;
+}
+body main .starter-section .starter .beta-text {
+  font-size: 35px;
+  font-family: verdana;
+  font-weight: bold;
+}
+body main .starter-section .starter .beta-p {
+  font-size: 14px;
+  font-family: tahoma;
+  padding: 5px 0 30px;
+}
+body main .starter-section .starter .gamma-text {
+  border: 2px solid black;
+  font-size: 15px;
+  font-family: verdana;
+  font-weight: bold;
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  padding: 6px;
+  border-radius: 10px;
+  margin: 0 0 25px;
+}
+body main .starter-section .starter ul {
+  padding-left: 16px;
+  list-style-image: url(./images/Checkmark.svg);
+  background-size: 10px;
+}
+body main .starter-section .starter ul li {
+  font-size: 16px;
+  font-family: tahoma;
+  color: #6d6d6d;
+  padding: 10px 10px;
+}
+body main .real-stories-section {
+  width: 900px;
+  height: 750px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+body main .real-stories-section .real-left {
+  width: 57%;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: end;
+  background-image: url(./images/Quote\ Mark.jpg);
+  background-repeat: no-repeat;
+  background-size: 155px;
+}
+body main .real-stories-section .real-left .real-up {
+  width: 80%;
+  height: 25%;
+  margin-top: 70px;
+}
+body main .real-stories-section .real-left .real-up h3 {
+  font-size: 45px;
+  font-family: cambria;
+  font-weight: 600;
+  padding: 12px 5px;
+}
+body main .real-stories-section .real-left .real-up p {
+  font-size: 16px;
+  font-family: cambria;
+  padding-left: 7px;
+}
+body main .real-stories-section .real-left .real-down {
+  width: 60%;
+  height: 60%;
+  font-size: 16px;
+  font-family: cambria;
+  padding: 20px 15px 0 50px;
+  box-shadow: 0 0 15px 0 #e0dbdb;
+  background-image: url(./images/Quote\ Mark\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: 6% 28%;
+}
+body main .real-stories-section .real-left .real-down .first-p {
+  position: relative;
+  bottom: 20px;
+  line-height: 25px;
+}
+body main .real-stories-section .real-left .real-down h6 {
+  font-size: 16px;
+  font-family: tahoma;
+  margin: 10px 0 5px 0;
+}
+body main .real-stories-section .real-left .real-down .second-p {
+  font-size: 12px;
+  font-family: tahoma;
+  color: #8b8b8e;
+}
+body main .real-stories-section .real-right {
+  width: 40%;
+  height: 750px;
+}
+body main .real-stories-section .real-right .stories-up {
+  width: 100%;
+  height: 50%;
+  margin: 100px 0 30px 0;
+  padding: 0 30px 0 50px;
+  box-shadow: 0 0 15px 0 #e0dbdb;
+  background-image: url(./images/Quote\ Mark\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: 6% 29%;
+}
+body main .real-stories-section .real-right .stories-up .p-first {
+  position: relative;
+  bottom: 20px;
+  font-size: 16px;
+  font-family: cambria;
+  line-height: 29px;
+}
+body main .real-stories-section .real-right .stories-up h6 {
+  font-size: 16px;
+  font-family: tahoma;
+  margin: 5px 0 5px 0;
+}
+body main .real-stories-section .real-right .stories-up .second-p {
+  font-size: 13px;
+  font-family: tahoma;
+  color: #8b8b8e;
+}
+body main .real-stories-section .real-right .stories-down {
+  width: 80%;
+  height: 32%;
+  padding: 20px 30px 0 50px;
+  box-shadow: 0 0 15px 0 #e0dbdb;
+  background-image: url(./images/Quote\ Mark\ \(1\).jpg);
+  background-repeat: no-repeat;
+  background-position: 8% 33%;
+}
+body main .real-stories-section .real-right .stories-down .p-text {
+  font-size: 16px;
+  font-family: cambria;
+  margin-bottom: 16px;
+  line-height: 25px;
+  position: relative;
+  bottom: 10px;
+}
+body main .real-stories-section .real-right .stories-down .h-text {
+  font-size: 16px;
+  font-family: tahoma;
+}
+body main .real-stories-section .real-right .stories-down .p-second {
+  font-size: 13px;
+  font-family: tahoma;
+  color: #8b8b8e;
+  padding-top: 5px;
+}
+body main .we-serve-section {
+  width: 1050px;
+  height: 180px;
+  margin: 0px auto 100px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .we-serve-section .searve-left {
+  width: 40%;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+body main .we-serve-section .searve-left h4 {
+  font-family: verdana;
+  font-size: 39px;
+}
+body main .we-serve-section .searve-left p {
+  font-family: tahoma;
+  font-size: 15px;
+  line-height: 30PX;
+}
+body main .we-serve-section .serve-right {
+  width: 40%;
+  height: 180px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body main .we-serve-section .serve-right .support {
+  height: 90px;
+  padding: 0 23px;
+}
+body main .get-in-touch {
+  width: 950px;
+  height: 320px;
+  margin: 50px auto 80PX;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(247, 249, 249);
+  position: relative;
+}
+body main .get-in-touch .whatsapp {
+  background-color: #b00000;
+  width: 190px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 8px;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+body main .get-in-touch h3 {
+  font-size: 35px;
+  font-family: verdana;
+  font-weight: 600;
+  width: 60%;
+  text-align: center;
+  margin: 30px auto 35px;
+}
+body main .get-in-touch a {
+  font-size: 12px;
+  font-family: tahoma;
+  color: #0b0909;
+  text-align: center;
+  margin: 5px auto 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+body main .get-in-touch a:hover {
+  color: greenyellow;
+}
+body main .get-in-touch .angle-one {
+  width: 30px;
+  height: 30px;
+  display: block;
+  border-top: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: 15px solid #b00000;
+  border-right: 15px solid #b00000;
+  position: absolute;
+  top: 0;
+  right: 55%;
+}
+body main .get-in-touch .angle-two {
+  width: 40px;
+  height: 40px;
+  display: block;
+  border-top: 20px solid transparent;
+  border-left: 20px solid #b00000;
+  border-bottom: 20px solid #b00000;
+  border-right: 20px solid transparent;
+  position: absolute;
+  top: 60%;
+  left: -18px;
+}
+body main .get-in-touch .angle-three {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-top: 25px solid transparent;
+  border-left: 25px solid transparent;
+  border-bottom: 25px solid #b00000;
+  border-right: 25px solid #b00000;
+  position: absolute;
+  right: -20px;
+  bottom: 40px;
+}
+body footer {
+  width: 1300px;
+  height: 400px;
+  color: #e0dbdb;
+  background-color: #b00000;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .first-footer {
+  color: #ffffff;
+  width: 300px;
+  height: 250px;
+}
+body footer .first-footer .ppp-text {
+  font-family: tahoma;
+  font-size: 10px;
+  line-height: 20px;
+  padding: 5px 50px 30px 0;
+}
+body footer .first-footer .pp-text {
+  font-family: tahoma;
+  font-size: 11px;
+  padding-top: 60px;
+}
+body footer .other-footers {
+  width: 180px;
+  height: 250px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+body footer .other-footers .a-header {
+  text-decoration: none;
+  font-size: 10px;
+  font-family: tahoma;
+  color: #ffffff;
+  font-weight: 600;
+}
+body footer .other-footers .a-header:hover {
+  color: greenyellow;
+}
+body footer .other-footers .a-body {
+  text-decoration: none;
+  font-size: 10px;
+  font-family: tahoma;
+  color: #d1c3c3;
+}
+body footer .other-footers .a-body:hover {
+  color: greenyellow;
+}
+body footer .fourth {
+  padding-bottom: 130px;
+}
+body footer .last {
+  padding-bottom: 155px;
+}/*# sourceMappingURL=style.css.map */
