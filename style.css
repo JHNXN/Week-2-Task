@@ -10,6 +10,12 @@ body header {
   align-items: center;
   width: 1100px;
   margin: 0 auto;
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #d1c3c3;
+  z-index: 1;
 }
 body header nav {
   width: 950px;
